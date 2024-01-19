@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: hsl(235, 21%, 11%);
+  }
+  ul,li{
+    list-style: none;
+  }
+  
+  .background {
+    background: url("images/bg-desktop-dark.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    transition: all 0.3s;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: -230px auto 0 auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .header h1 {
+    color: #fff;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+  }
+  .header img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+  }
+
+  .dragdrop {
+    position: absolute;
+    bottom: 20px;
+    color: hsl(233, 14%, 35%);
+    align-self: center;
+    font-size: 1rem;
+  }
+  label{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .todo-input{
+    position: relative;
+    display: flex;
+  }
+  .todo-input button{
+    border: 1px solid hsl(234, 11%, 52%);
+    outline: none;
+    background:none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    align-self: center;
+    margin-left: 15px;
+  }
+
+  
+  .todo-input input{
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    height: 50px;
+    font-size: 1rem;
+    color: hsl(233, 11%, 84%);
+    padding: 10px 10px 10px 45px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.todo-input input::placeholder{
+    color: hsl(234, 11%, 52%);
+}
+.filters{
+    display: flex;
+}
+.filters input[type="radio"]{
+  opacity: 0;
+}
+.filters label:hover{
+  color:hsl(236, 33%, 92%);
+}
+.filters input[type="radio"]:checked ~ span{
+  color:hsl(220, 98%, 61%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
